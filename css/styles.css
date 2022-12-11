@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
+
 body {
     background-color: #383134;
     margin: 0;
@@ -43,12 +44,16 @@ hr {
 .top-cloud {
     position: relative;
     left: 22.5rem;
+    animation: move 6s ease-in-out infinite;
+    animation-duration: 8s;
 }
 
 .bottom-cloud {
     position: relative;
     right: 22.5rem;
     top: 1rem;
+    animation: move 6s ease-in-out infinite;
+    animation-delay: -1s;
 }
 
 .heart {
@@ -73,4 +78,10 @@ hr {
     position: absolute;
     bottom: 2rem;
     width: 100%;
+}
+
+@keyframes move {
+    50% {
+        transform: translateY(-30px);
+    }
 }
