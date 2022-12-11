@@ -42,7 +42,7 @@ hr {
 
 .top-cloud {
     position: relative;
-    left: 22.5rem
+    left: 22.5rem;
 }
 
 .bottom-cloud {
@@ -61,11 +61,13 @@ hr {
 .footer-link {
     color: #ffebf5;
     padding: 0.25rem;
+    text-decoration: none;
 }
 
 .footer-link:hover {
     color: #94878d;
     font-weight: 500;
+    text-decoration: underline;
 }
 
 .bottom-container {
