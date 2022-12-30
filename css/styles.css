@@ -46,6 +46,11 @@ hr {
     left: 22.5rem;
     animation: move 6s ease-in-out infinite;
     animation-duration: 8s;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .bottom-cloud {
@@ -54,6 +59,11 @@ hr {
     top: 1rem;
     animation: move 6s ease-in-out infinite;
     animation-delay: -1s;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .heart {
@@ -61,6 +71,11 @@ hr {
     font-size: 1.5rem;
     opacity: 65%;
     padding: 0.75rem;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .footer-link {
@@ -84,4 +99,9 @@ hr {
     50% {
         transform: translateY(-30px);
     }
+}
+
+::selection {
+    background-color: #955a6f;
+    color: #ffebf5;
 }
