@@ -1,87 +1,101 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap");
 
 body {
-    background-color: #383134;
-    margin: 0;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: #ffebf5;
+  background-color: #383134;
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffebf5;
 }
 
 h1 {
-    font-family: "Sacramento", cursive;
-    font-size: 4rem;
-    height: 3rem;
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+  height: 3rem;
 }
 
 h2 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 hr {
-    border-style: none;
-    border-top: dotted #5c5156;
-    border-width: 0.75rem;
-    width: 10rem;
+  border-style: none;
+  border-top: dotted #5c5156;
+  border-width: 0.75rem;
+  width: 10rem;
 }
 
 .kindabold {
-    font-weight: 500;
-    color: #fff5fa;
+  font-weight: 500;
+  color: #fff5fa;
 }
 
 .top-container {
-    padding-top: 7.5rem;
-    padding-bottom: 2.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .middle-container {
-    padding-top: 1rem;
-    font-weight: 300;
+  padding-top: 1rem;
+  font-weight: 300;
 }
 
 .top-cloud {
-    position: relative;
-    left: 22.5rem;
-    animation: move 6s ease-in-out infinite;
-    animation-duration: 8s;
+  position: relative;
+  left: 22.5rem;
+  animation: move 6s ease-in-out infinite;
+  animation-duration: 8s;
 }
 
 .bottom-cloud {
-    position: relative;
-    right: 22.5rem;
-    top: 1rem;
-    animation: move 6s ease-in-out infinite;
-    animation-delay: -1s;
+  position: relative;
+  right: 22.5rem;
+  top: 1rem;
+  animation: move 6s ease-in-out infinite;
+  animation-delay: -1s;
 }
 
 .heart {
-    color: #955a6f;
-    font-size: 1.5rem;
-    opacity: 65%;
-    padding: 0.75rem;
+  color: #955a6f;
+  font-size: 1.5rem;
+  opacity: 65%;
+  padding: 0.75rem;
 }
 
 .footer-link {
-    color: #ffebf5;
-    padding: 0.25rem;
-    text-decoration: none;
+  color: #ffebf5;
+  padding: 0.25rem;
+  text-decoration: none;
 }
 
 .footer-link:hover {
-    color: #94878d;
-    font-weight: 500;
+  color: #94878d;
+  font-weight: 500;
 }
 
 .bottom-container {
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
 }
 
 @keyframes move {
-    50% {
-        transform: translateY(-30px);
-    }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.besties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  image-rendering: pixelated;
+}
+
+.bestie {
+  display: inline-flex;
+  margin-left: 5px;
+  margin-right: 5px;
 }
